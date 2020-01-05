@@ -1,0 +1,55 @@
+.content_style {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.card {
+    background-color: rgb(110, 92, 92);
+    background: url("../assets/video-bg.png");
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    margin-top: auto;
+}
+
+#welcome_header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    font-size: 35px;
+    width: max-content;
+    color: #dd5218;
+}
+
+#blog_title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    width: max-content;
+    color: #585655;
+}
+
+
+.row-centered {
+    text-align: center;
+}
+
+#blog_img{
+    top:100px;
+}
+
+@media screen and (min-width: 0) and (max-width: 1024px) {
+    #welcome_header {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+        font-size: 30px;
+        width: max-content;
+        color: #dd5218;
+    }
+
+    #blog_img{
+        top:0px;
+    }
+   
+}

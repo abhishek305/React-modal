@@ -1,0 +1,49 @@
+#blog_content{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 19; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+.card {
+  background-color: rgb(110, 92, 92);
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  margin-top: auto;
+}
+
+#blog_section{
+  left:50px
+}
+
+#blog_container{
+  margin-top: 50px;
+}
+
+#post_img{
+  margin-top: 85px;
+  left:60px
+}
+
+@media screen and (min-width: 0) and (max-width: 1024px) {
+  #blog_container {
+      margin-top: 50px;
+  }
+
+  #blog_img{
+      top:0px;
+  }
+
+  #post_img{
+    right: 0;
+    left: 0;
+  }
+
+  #blog_section{
+    left:0px;
+    right:0px
+  }
+ 
+}
